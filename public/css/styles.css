@@ -5,31 +5,77 @@ Celeste: #1259c3;
 Gris oscuro: #666;
 Gris claro: #ebebeb;
 Verde: #39b54a;*/
+.color-green {
+    color: #39b54a;
+  }
+.font-lg {
+    font-size: 16px;
+  }
+.bg-dark-grey {
+    background-color: #666;
+}
+
+.color-dark-grey{
+    color:#666;
+}
+
+.bg-light-grey {
+    background-color: #ebebeb;
+}
+.navi
+{
+    visibility: hidden;
+}
+.nav-link {
+    text-decoration: none;
+    color: inherit;
+ }
 body{
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto';
 }
 .pageHeader {
     background: #EAC926;
-    padding-bottom: 15px;
+    padding-bottom: 15px;  
+}
+.w-100{
+    width: 100%;
 }
 
-.fontFamily{
-    font-family: 'Roboto', sans-serif;
-}
-.firstList{
-    margin-bottom: 20px;
-}
-.titulares{
+.title {
     font-size: 24px;
 }
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.articulos{
+    margin-bottom: 10px;
+    background-color: white;
+    padding-bottom: 5px;
+    /*border: solid 1px black;*/
+}
+
+.divArticulos{
+    /*border: solid 1px red;*/
+    border-top: solid 1px #ebebeb ;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 5px;
+
+}
+.pageHeader h1{
+    width: 50%;
+}
+
 .precios{
     font-size: 18px;
 }
-
-a:link, a:visited, a:active a:hover{
-    text-decoration:none;
-    color:black;
-}
+.py-1 {
+    padding-top: 8px;
+    padding-bottom: 8px;
+  }
 .burgerMenu{
     text-align:center;
     background-color: #1259c3;
@@ -74,3 +120,34 @@ a:link, a:visited, a:active a:hover{
     color:#666;
     font-size: 15.5px;
 }
+
+.productShadow {
+    box-shadow: 0px 0px 10px rgb(100, 100, 100);
+}
+
+
+@media (min-width: 480px){
+    /*tablet*/
+    .burgerMenu {
+       visibility:  hidden;
+    }
+    .navi{
+    visibility: visible;
+    }
+}
+
+@media (min-width: 769px){
+    /*laptop*/
+    .productShadow{
+        box-shadow: none;
+    }
+    .descripcion{
+        display: none;
+    }
+}
+@media (min-width: 1281px){
+    /*desktop*/
+  
+}
+    
+    
