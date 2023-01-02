@@ -129,7 +129,9 @@ Verde: #39b54a;*/
     padding: 5px 0px;
   align-items: center;
 }
-
+.divBusqueda button{
+    margin-left: -3px;
+}
 body {
     font-family: 'Roboto';
 }
@@ -315,7 +317,9 @@ form button{
     justify-content: space-between;
     font-size: 13px;
     }
- 
+    .py-1 li{
+        border-top: none;
+        }
     section ul{
         display: flex;
         flex-wrap: wrap;
