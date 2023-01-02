@@ -298,10 +298,6 @@ form button{
 .footerPage{
     padding-top: 20px;
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .footerBlock{
@@ -351,6 +347,8 @@ form button{
     .articulos{
         width: 49%;
      }
+     .footerPage{
+  
 }
 
 @media (min-width: 769px){
@@ -385,7 +383,12 @@ form button{
     .footerBlock{
         width: 31%;
     }
-
+    .footerPage{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
     .footerIcon:hover {
         color:#76a0d6;
         transition: color, 0.5s;
