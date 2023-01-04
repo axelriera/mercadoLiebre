@@ -154,7 +154,7 @@ body {
 }
 
 .pageHeader {
-    padding: 5px 5px;
+    padding: 5px 15px;
     background: #EAC926; 
     flex-wrap: wrap;
     display: flex;
