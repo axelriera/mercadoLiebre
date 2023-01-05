@@ -254,14 +254,14 @@ body{
 }
 
 /*Formulario Registro*/
-form{
+.formulario-registro{
     flex-direction: column;
     justify-content: space-between;
     display: flex;
     flex-wrap: wrap;
 }
 
-form input{
+.formulario-registro input{
     font-family: 'roboto';
     padding: 10px;
     margin-bottom: 5px;
@@ -269,15 +269,15 @@ form input{
     border-radius: 5px;
 }
 
-form label{
+.formulario-registro label{
     margin: 5px 0px;
 }
 
-form p{
+.formulario-registro p{
     margin: 5px 0px;
 }
 
-form button{
+.formulario-registro button{
     padding: 10px 0px;
 }
 
